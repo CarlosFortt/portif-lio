@@ -1,6 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 li {
     list-style: circle;
 }
 a {
     text-decoration: none;
+}
+
+body {
+    background: url(../img/bg-desktop.jpg) no-repeat top center/cover;
+    height: 185vh;
+}
+
+body *{
+    color: white;
+    font-family: Arial;
 }
